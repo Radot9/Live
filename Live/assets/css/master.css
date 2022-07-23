@@ -1,0 +1,104 @@
+.live-logo {
+  width: 100px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  video.showvid {
+    width: 360px;
+  }
+  .brandlogo {
+    display: block;
+    width: 100px;
+    margin: auto;
+    margin-top: 30%;
+  }
+  h1 {
+    text-align: center;
+    margin: 10px;
+    font-size: 2.5em !important;
+  }
+  img.livetheme {
+    width: 300px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  video.showvid {
+    width: 786px;
+  }
+  .brandlogo {
+    display: block;
+    width: 150px;
+    margin: auto;
+    margin-top: 30%;
+  }
+  img.livetheme {
+    width: 789px;
+  }
+}
+
+@media (min-width: 1201px) {
+  video.showvid {
+    width: 1080px;
+  }
+  .brandlogo {
+    display: block;
+    float: center;
+    width: 300px;
+    margin: auto;
+    margin-top: 50%;
+  }
+  img.livetheme {
+    width: 1080px;
+  }
+}
+
+video.showvid {
+  display: block;
+  height: auto;
+  margin: auto;
+  padding: 50px;
+}
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active {
+  /*background-image:-webkit-linear-gradient(right,#8b00bd 0,#ffe500 100%) !important;*/
+  background-color: #8b00bd !important;
+}
+.btn-outline-info,
+.btn-outline-info:hover,
+.btn-outline-info:active {
+  /*background-image:-webkit-linear-gradient(right,#8b00bd 0,#ffe500 100%) !important;*/
+  color: #8b00bd !important;
+  border-color: #8b00bd !important;
+}
+
+div.butnav {
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px;
+}
+
+a.btn {
+  margin: 5px;
+}
+
+.left-icon-pos {
+  position: relative;
+  left: 20px;
+  top: 20px;
+}
+
+div.container.lead {
+  text-align: center;
+  padding: 20px;
+}
+
+img.livetheme {
+  margin: 20px;
+}
